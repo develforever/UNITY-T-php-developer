@@ -1,0 +1,26 @@
+{
+    "name": "robertjamroz/zoo",
+    "description": "ZOO virtual implementation of PHP classes",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Robertjamroz\\Zoo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Develforever",
+            "email": "rockfade@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "require": {
+        "laminas/laminas-i18n": "^2.26",
+        "laminas/laminas-servicemanager": "^3.22"
+    }
+}
