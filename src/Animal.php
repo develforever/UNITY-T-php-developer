@@ -7,14 +7,14 @@ const NONAME = 'noname';
 
 class Animal {
 
-    private ?Species $species = Species::Unknown;
-    private ?string $name = null;
-    private ?string $zoo_name = null;
-    private AnimalType $type = AnimalType::Unknown;
-    private ?int $lastFeed = null;
+    protected ?Species $species = Species::Unknown;
+    protected ?string $name = null;
+    protected ?string $zoo_name = null;
+    protected AnimalType $type = AnimalType::Unknown;
+    protected ?int $lastFeed = null;
 
-    private bool $has_fur = false;
-    private ?int $lastBrushingFur = null;
+    protected bool $has_fur = false;
+    protected ?int $lastBrushingFur = null;
 
     protected static $translator;
 
@@ -53,7 +53,7 @@ class Animal {
     }
 
     public function getSpecies():Species{
-        return $this->species?$this->species: Species::Unknown;
+        return $this->species?: Species::Unknown;
     }
     
     public function brushingFur():void {

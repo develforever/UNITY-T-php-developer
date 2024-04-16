@@ -7,9 +7,8 @@ PHP Composer project. To run interactive see below.
 
 Requirements:
 
-* phpenv v0.9.0-rc.1
+* phpenv v0.9.0-rc.1 with PHP 8.1.4 or PHP 8.1.4
 * Composer version 2.7.2 2024-03-11 17:12:18
-* PHP 8.1.4
 
 
 Prepare
