@@ -9,4 +9,5 @@ use Robertjamroz\Zoo\Species;
 abstract class ElephantAbstract extends ImmutableAnimalAbstract {
     protected ?Species $species = Species::Elephant;
     protected AnimalType $type = AnimalType::Herbivores;
+    protected bool $has_fur = false;
 }
